@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DATA_DIR = path.join(__dirname, 'data');
 const DATA_FILE = path.join(DATA_DIR, 'diagram.json');
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
 
 const ensureDataFile = async () => {
   try {
